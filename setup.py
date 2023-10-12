@@ -14,7 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     license="LGPL-3.0-or-later",
     url="https://github.com/khulnasoft-lab/cvedb",
-    author="Trail of Bits",
+    author="KhulnaSoft Ltd",
     version="0.0.5",
     packages=find_packages(exclude=["test"]),
     python_requires=">=3.6",

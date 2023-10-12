@@ -69,10 +69,10 @@ an update with the new `--update` argument. Support for the new REST API is bein
 
 ## License and Acknowledgements
 
-CVEdb was created by [Trail of Bits](https://www.khulnasoft-lab.com/).
+CVEdb was created by [KhulnaSoft Ltd](https://www.khulnasoft-lab.com/).
 It is licensed under the [GNU Lesser General Public License v3.0](LICENSE).
 [Contact us](mailto:opensource@khulnasoft-lab.com) if you're looking for an exception to the terms.
-© 2021, Trail of Bits.
+© 2021, KhulnaSoft Ltd.
 
 The [CVE database shipped with CVEdb](https://github.com/khulnasoft-lab/cvedb/tree/master/cvedb/data) is created and
 maintained by NIST and is released in the public domain.
