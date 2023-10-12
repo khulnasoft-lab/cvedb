@@ -8,12 +8,12 @@ with open(README_PATH, "r") as readme:
     README = readme.read()
 
 setup(
-    name="py-cvedb",
+    name="cvedb",
     description="Yet another CVE database",
     long_description=README,
     long_description_content_type="text/markdown",
     license="LGPL-3.0-or-later",
-    url="https://github.com/khulnasoft-lab/py-cvedb",
+    url="https://github.com/khulnasoft-lab/cvedb",
     author="Trail of Bits",
     version="0.0.5",
     packages=find_packages(exclude=["test"]),
@@ -26,14 +26,14 @@ setup(
         "tqdm>=4.48.0"
     ],
     package_data={
-        "py-cvedb": ["data/*.json.gz", "data/*.meta"]
+        "cvedb": ["data/*.json.gz", "data/*.meta"]
     },
     extras_require={
         "dev": ["flake8", "pytest", "rstr~=2.2.6", "twine"]
     },
     entry_points={
         "console_scripts": [
-            "py-cvedb = py-cvedb.__main__:main"
+            "cvedb = cvedb.__main__:main"
         ]
     },
     classifiers=[
